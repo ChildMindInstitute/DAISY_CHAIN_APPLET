@@ -1,7 +1,7 @@
 {
   "@context": [
     "https://raw.githubusercontent.com/jj105/reproschema-context/master/context.json",
-    "https://raw.githubusercontent.com/YOUR-PROTOCOL-CONTEXT-FILE"
+    "https://raw.githubusercontent.com/ChildMindInstitute/DAISY_CHAIN_APPLET/master/protocols/context"
   ],
   "@type": "reproschema:Protocol",
   "@id": "New Daisy Chain Applet_schema",

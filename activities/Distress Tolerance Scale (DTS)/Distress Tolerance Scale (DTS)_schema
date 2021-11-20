@@ -1,6 +1,7 @@
 {
   "@context": [
-    "https://raw.githubusercontent.com/jj105/reproschema-context/master/context.json"
+    "https://raw.githubusercontent.com/jj105/reproschema-context/master/context.json",
+    "https://raw.githubusercontent.com/ChildMindInstitute/DAISY_CHAIN_APPLET/master/activities/Distress Tolerance Scale (DTS)/Distress Tolerance Scale (DTS)_context"
   ],
   "@type": "reproschema:Activity",
   "@id": "Distress Tolerance Scale (DTS)",
