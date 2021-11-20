@@ -1,4 +1,11 @@
 {
+  "name": "CSC_27C",
+  "question": "Currently, my child feels like he/she has to do certain things in a very specific way (handwashing, checking, doing things multiple times).",
+  "description": "",
+  "isVis": false,
+  "isOptionalText": false,
+  "timer": 0,
+  "allowEdit": true,
   "@context": [
     "https://raw.githubusercontent.com/jj105/reproschema-context/master/context.json"
   ],
@@ -7,7 +14,6 @@
   "skos:prefLabel": "CSC_27C",
   "skos:altLabel": "CSC_27C",
   "schema:description": "",
-  "isVis": false,
   "schema:schemaVersion": "0.0.1",
   "schema:version": "0.0.1",
   "ui": {

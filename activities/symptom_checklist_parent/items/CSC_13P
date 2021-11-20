@@ -1,4 +1,11 @@
 {
+  "name": "CSC_13P",
+  "question": "\nIn the past, my child feels very afraid of being on a bridge or traveling in a car, bus, or train.",
+  "description": "",
+  "isVis": false,
+  "isOptionalText": false,
+  "timer": 0,
+  "allowEdit": true,
   "@context": [
     "https://raw.githubusercontent.com/jj105/reproschema-context/master/context.json"
   ],
@@ -7,7 +14,6 @@
   "skos:prefLabel": "CSC_13P",
   "skos:altLabel": "CSC_13P",
   "schema:description": "",
-  "isVis": false,
   "schema:schemaVersion": "0.0.1",
   "schema:version": "0.0.1",
   "ui": {

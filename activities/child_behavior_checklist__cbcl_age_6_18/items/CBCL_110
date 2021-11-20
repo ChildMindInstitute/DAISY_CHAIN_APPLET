@@ -1,4 +1,11 @@
 {
+  "name": "CBCL_110",
+  "question": "Wishes to be of opposite sex",
+  "description": "Withdrawn, doesn't get involved with others",
+  "isVis": false,
+  "isOptionalText": false,
+  "timer": 0,
+  "allowEdit": true,
   "@context": [
     "https://raw.githubusercontent.com/jj105/reproschema-context/master/context.json"
   ],
@@ -7,7 +14,6 @@
   "skos:prefLabel": "CBCL_110",
   "skos:altLabel": "CBCL_110",
   "schema:description": "Withdrawn, doesn't get involved with others",
-  "isVis": false,
   "schema:schemaVersion": "0.0.1",
   "schema:version": "0.0.1",
   "ui": {

@@ -1,4 +1,11 @@
 {
+  "name": "CBCL_43",
+  "question": "Lying or cheating",
+  "description": "Lying or cheating",
+  "isVis": false,
+  "isOptionalText": false,
+  "timer": 0,
+  "allowEdit": true,
   "@context": [
     "https://raw.githubusercontent.com/jj105/reproschema-context/master/context.json"
   ],
@@ -7,7 +14,6 @@
   "skos:prefLabel": "CBCL_43",
   "skos:altLabel": "CBCL_43",
   "schema:description": "Lying or cheating",
-  "isVis": false,
   "schema:schemaVersion": "0.0.1",
   "schema:version": "0.0.1",
   "ui": {

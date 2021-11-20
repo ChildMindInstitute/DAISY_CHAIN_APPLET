@@ -1,4 +1,11 @@
 {
+  "name": "CSC_05C",
+  "question": "Currently, my child has strong and explosive feelings of anger.\n\n",
+  "description": "",
+  "isVis": false,
+  "isOptionalText": false,
+  "timer": 0,
+  "allowEdit": true,
   "@context": [
     "https://raw.githubusercontent.com/jj105/reproschema-context/master/context.json"
   ],
@@ -7,7 +14,6 @@
   "skos:prefLabel": "CSC_05C",
   "skos:altLabel": "CSC_05C",
   "schema:description": "",
-  "isVis": false,
   "schema:schemaVersion": "0.0.1",
   "schema:version": "0.0.1",
   "ui": {

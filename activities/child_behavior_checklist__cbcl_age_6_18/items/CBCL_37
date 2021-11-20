@@ -1,4 +1,11 @@
 {
+  "name": "CBCL_37",
+  "question": "Gets in many fights",
+  "description": "Gets in many fights",
+  "isVis": false,
+  "isOptionalText": false,
+  "timer": 0,
+  "allowEdit": true,
   "@context": [
     "https://raw.githubusercontent.com/jj105/reproschema-context/master/context.json"
   ],
@@ -7,7 +14,6 @@
   "skos:prefLabel": "CBCL_37",
   "skos:altLabel": "CBCL_37",
   "schema:description": "Gets in many fights",
-  "isVis": false,
   "schema:schemaVersion": "0.0.1",
   "schema:version": "0.0.1",
   "ui": {

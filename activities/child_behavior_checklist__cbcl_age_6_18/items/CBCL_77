@@ -1,4 +1,11 @@
 {
+  "name": "CBCL_77",
+  "question": "Sleeps more than most kids during day and/or night",
+  "description": "Sleeps more than most kids during day and/or night",
+  "isVis": false,
+  "isOptionalText": false,
+  "timer": 0,
+  "allowEdit": true,
   "@context": [
     "https://raw.githubusercontent.com/jj105/reproschema-context/master/context.json"
   ],
@@ -7,7 +14,6 @@
   "skos:prefLabel": "CBCL_77",
   "skos:altLabel": "CBCL_77",
   "schema:description": "Sleeps more than most kids during day and/or night",
-  "isVis": false,
   "schema:schemaVersion": "0.0.1",
   "schema:version": "0.0.1",
   "ui": {

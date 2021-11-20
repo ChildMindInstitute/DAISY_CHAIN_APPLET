@@ -1,4 +1,11 @@
 {
+  "name": "WHODAS_P_07",
+  "question": "In the past 30 days, how much difficulty did your child have in walking a long distance such as a half mile [or equivalent]?",
+  "description": "",
+  "isVis": false,
+  "isOptionalText": false,
+  "timer": 0,
+  "allowEdit": true,
   "@context": [
     "https://raw.githubusercontent.com/jj105/reproschema-context/master/context.json"
   ],
@@ -7,7 +14,6 @@
   "skos:prefLabel": "WHODAS_P_07",
   "skos:altLabel": "WHODAS_P_07",
   "schema:description": "",
-  "isVis": false,
   "schema:schemaVersion": "0.0.1",
   "schema:version": "0.0.1",
   "ui": {

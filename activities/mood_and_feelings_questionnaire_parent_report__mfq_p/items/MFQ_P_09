@@ -1,4 +1,11 @@
 {
+  "name": "MFQ_P_09",
+  "question": "S/he blamed him/herself for things that weren't his/her fault.",
+  "description": "S/he blamed him/herself for things that weren't his/her fault.",
+  "isVis": false,
+  "isOptionalText": false,
+  "timer": 0,
+  "allowEdit": true,
   "@context": [
     "https://raw.githubusercontent.com/jj105/reproschema-context/master/context.json"
   ],
@@ -7,7 +14,6 @@
   "skos:prefLabel": "MFQ_P_09",
   "skos:altLabel": "MFQ_P_09",
   "schema:description": "S/he blamed him/herself for things that weren't his/her fault.",
-  "isVis": false,
   "schema:schemaVersion": "0.0.1",
   "schema:version": "0.0.1",
   "ui": {

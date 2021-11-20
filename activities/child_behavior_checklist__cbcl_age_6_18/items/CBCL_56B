@@ -1,4 +1,11 @@
 {
+  "name": "CBCL_56B",
+  "question": "Headaches",
+  "description": "Headaches",
+  "isVis": false,
+  "isOptionalText": false,
+  "timer": 0,
+  "allowEdit": true,
   "@context": [
     "https://raw.githubusercontent.com/jj105/reproschema-context/master/context.json"
   ],
@@ -7,7 +14,6 @@
   "skos:prefLabel": "CBCL_56B",
   "skos:altLabel": "CBCL_56B",
   "schema:description": "Headaches",
-  "isVis": false,
   "schema:schemaVersion": "0.0.1",
   "schema:version": "0.0.1",
   "ui": {

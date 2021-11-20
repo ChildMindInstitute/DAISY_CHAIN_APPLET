@@ -1,4 +1,11 @@
 {
+  "name": "CSC_21C",
+  "question": "Currently, my child is unable to speak in specific situations, such as school, despite being able to speak without a problem in other situations.",
+  "description": "",
+  "isVis": false,
+  "isOptionalText": false,
+  "timer": 0,
+  "allowEdit": true,
   "@context": [
     "https://raw.githubusercontent.com/jj105/reproschema-context/master/context.json"
   ],
@@ -7,7 +14,6 @@
   "skos:prefLabel": "CSC_21C",
   "skos:altLabel": "CSC_21C",
   "schema:description": "",
-  "isVis": false,
   "schema:schemaVersion": "0.0.1",
   "schema:version": "0.0.1",
   "ui": {

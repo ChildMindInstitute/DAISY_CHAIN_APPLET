@@ -1,4 +1,11 @@
 {
+  "name": "CBCL_61",
+  "question": "Poor school work",
+  "description": "Poor school work",
+  "isVis": false,
+  "isOptionalText": false,
+  "timer": 0,
+  "allowEdit": true,
   "@context": [
     "https://raw.githubusercontent.com/jj105/reproschema-context/master/context.json"
   ],
@@ -7,7 +14,6 @@
   "skos:prefLabel": "CBCL_61",
   "skos:altLabel": "CBCL_61",
   "schema:description": "Poor school work",
-  "isVis": false,
   "schema:schemaVersion": "0.0.1",
   "schema:version": "0.0.1",
   "ui": {

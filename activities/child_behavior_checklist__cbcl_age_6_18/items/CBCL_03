@@ -1,4 +1,11 @@
 {
+  "name": "CBCL_03",
+  "question": "Argues a lot",
+  "description": "Argues a lot",
+  "isVis": false,
+  "isOptionalText": false,
+  "timer": 0,
+  "allowEdit": true,
   "@context": [
     "https://raw.githubusercontent.com/jj105/reproschema-context/master/context.json"
   ],
@@ -7,7 +14,6 @@
   "skos:prefLabel": "CBCL_03",
   "skos:altLabel": "CBCL_03",
   "schema:description": "Argues a lot",
-  "isVis": false,
   "schema:schemaVersion": "0.0.1",
   "schema:version": "0.0.1",
   "ui": {

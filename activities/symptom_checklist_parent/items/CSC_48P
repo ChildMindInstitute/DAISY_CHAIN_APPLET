@@ -1,4 +1,11 @@
 {
+  "name": "CSC_48P",
+  "question": "In the past, my child has unusual physical mannerisms (rocked body or flapping hands).",
+  "description": "",
+  "isVis": false,
+  "isOptionalText": false,
+  "timer": 0,
+  "allowEdit": true,
   "@context": [
     "https://raw.githubusercontent.com/jj105/reproschema-context/master/context.json"
   ],
@@ -7,7 +14,6 @@
   "skos:prefLabel": "CSC_48P",
   "skos:altLabel": "CSC_48P",
   "schema:description": "",
-  "isVis": false,
   "schema:schemaVersion": "0.0.1",
   "schema:version": "0.0.1",
   "ui": {

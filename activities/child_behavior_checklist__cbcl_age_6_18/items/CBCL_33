@@ -1,4 +1,11 @@
 {
+  "name": "CBCL_33",
+  "question": "Feels or complains that no one loves him/her",
+  "description": "Feels or complains that no one loves him/her",
+  "isVis": false,
+  "isOptionalText": false,
+  "timer": 0,
+  "allowEdit": true,
   "@context": [
     "https://raw.githubusercontent.com/jj105/reproschema-context/master/context.json"
   ],
@@ -7,7 +14,6 @@
   "skos:prefLabel": "CBCL_33",
   "skos:altLabel": "CBCL_33",
   "schema:description": "Feels or complains that no one loves him/her",
-  "isVis": false,
   "schema:schemaVersion": "0.0.1",
   "schema:version": "0.0.1",
   "ui": {

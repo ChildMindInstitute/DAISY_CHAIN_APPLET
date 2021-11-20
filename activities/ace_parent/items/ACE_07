@@ -1,4 +1,11 @@
 {
+  "name": "ACE_07",
+  "question": "More than once, your child went without food, clothing, a place to live, or had no one to protect her/him",
+  "description": "",
+  "isVis": false,
+  "isOptionalText": false,
+  "timer": 0,
+  "allowEdit": true,
   "@context": [
     "https://raw.githubusercontent.com/jj105/reproschema-context/master/context.json"
   ],
@@ -7,7 +14,6 @@
   "skos:prefLabel": "ACE_07",
   "skos:altLabel": "ACE_07",
   "schema:description": "",
-  "isVis": false,
   "schema:schemaVersion": "0.0.1",
   "schema:version": "0.0.1",
   "ui": {

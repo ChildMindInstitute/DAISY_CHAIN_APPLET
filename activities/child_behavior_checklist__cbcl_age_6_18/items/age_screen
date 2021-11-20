@@ -1,4 +1,11 @@
 {
+  "name": "age_screen",
+  "question": "How old are you?",
+  "description": "",
+  "isVis": false,
+  "isOptionalText": false,
+  "timer": 0,
+  "allowEdit": false,
   "@context": [
     "https://raw.githubusercontent.com/jj105/reproschema-context/master/context.json"
   ],
@@ -7,7 +14,6 @@
   "skos:prefLabel": "age_screen",
   "skos:altLabel": "age_screen",
   "schema:description": "",
-  "isVis": false,
   "schema:schemaVersion": "0.0.1",
   "schema:version": "0.0.1",
   "ui": {
@@ -17,5 +23,6 @@
     "valueType": "http://www.w3.org/2001/XMLSchema#integer",
     "removeBackOption": false,
     "requiredValue": true
-  }
+  },
+  "correctAnswer": ""
 }

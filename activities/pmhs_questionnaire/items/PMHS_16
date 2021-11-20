@@ -1,4 +1,11 @@
 {
+  "name": "PMHS_16",
+  "question": "Unpleasant thoughts, urges, or images that repeatedly enter your mind?",
+  "description": "",
+  "isVis": false,
+  "isOptionalText": false,
+  "timer": 0,
+  "allowEdit": true,
   "@context": [
     "https://raw.githubusercontent.com/jj105/reproschema-context/master/context.json"
   ],
@@ -7,7 +14,6 @@
   "skos:prefLabel": "PMHS_16",
   "skos:altLabel": "PMHS_16",
   "schema:description": "",
-  "isVis": false,
   "schema:schemaVersion": "0.0.1",
   "schema:version": "0.0.1",
   "ui": {

@@ -1,4 +1,11 @@
 {
+  "name": "CBCL_92",
+  "question": "Talks or walks in sleep",
+  "description": "Talks or walks in sleep",
+  "isVis": false,
+  "isOptionalText": false,
+  "timer": 0,
+  "allowEdit": true,
   "@context": [
     "https://raw.githubusercontent.com/jj105/reproschema-context/master/context.json"
   ],
@@ -7,7 +14,6 @@
   "skos:prefLabel": "CBCL_92",
   "skos:altLabel": "CBCL_92",
   "schema:description": "Talks or walks in sleep",
-  "isVis": false,
   "schema:schemaVersion": "0.0.1",
   "schema:version": "0.0.1",
   "ui": {

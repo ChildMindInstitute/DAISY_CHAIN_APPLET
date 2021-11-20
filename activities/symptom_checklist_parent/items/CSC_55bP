@@ -1,4 +1,11 @@
 {
+  "name": "CSC_55bP",
+  "question": "In the past, my child has used the following drugs:\n\nStimulants (speed, amphetamines, dexedrine, diet pills, crystal meth)",
+  "description": "",
+  "isVis": false,
+  "isOptionalText": false,
+  "timer": 0,
+  "allowEdit": true,
   "@context": [
     "https://raw.githubusercontent.com/jj105/reproschema-context/master/context.json"
   ],
@@ -7,7 +14,6 @@
   "skos:prefLabel": "CSC_55bP",
   "skos:altLabel": "CSC_55bP",
   "schema:description": "",
-  "isVis": false,
   "schema:schemaVersion": "0.0.1",
   "schema:version": "0.0.1",
   "ui": {

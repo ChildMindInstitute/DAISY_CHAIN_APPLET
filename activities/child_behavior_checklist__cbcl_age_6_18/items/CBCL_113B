@@ -1,4 +1,11 @@
 {
+  "name": "CBCL_113B",
+  "question": "Please write in any problems your child has that were not listed above",
+  "description": "Worries",
+  "isVis": false,
+  "isOptionalText": true,
+  "timer": 0,
+  "allowEdit": true,
   "@context": [
     "https://raw.githubusercontent.com/jj105/reproschema-context/master/context.json"
   ],
@@ -7,7 +14,6 @@
   "skos:prefLabel": "CBCL_113B",
   "skos:altLabel": "CBCL_113B",
   "schema:description": "Worries",
-  "isVis": false,
   "schema:schemaVersion": "0.0.1",
   "schema:version": "0.0.1",
   "ui": {

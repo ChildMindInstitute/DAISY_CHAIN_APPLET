@@ -1,4 +1,11 @@
 {
+  "name": "ACE_10",
+  "question": "Your child often felt unsupported, unloved and/or unprotected",
+  "description": "",
+  "isVis": false,
+  "isOptionalText": false,
+  "timer": 0,
+  "allowEdit": true,
   "@context": [
     "https://raw.githubusercontent.com/jj105/reproschema-context/master/context.json"
   ],
@@ -7,7 +14,6 @@
   "skos:prefLabel": "ACE_10",
   "skos:altLabel": "ACE_10",
   "schema:description": "",
-  "isVis": false,
   "schema:schemaVersion": "0.0.1",
   "schema:version": "0.0.1",
   "ui": {

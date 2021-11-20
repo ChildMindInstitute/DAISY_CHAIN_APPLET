@@ -1,4 +1,11 @@
 {
+  "name": "CBCL_53",
+  "question": "Overeating",
+  "description": "Overeating",
+  "isVis": false,
+  "isOptionalText": false,
+  "timer": 0,
+  "allowEdit": true,
   "@context": [
     "https://raw.githubusercontent.com/jj105/reproschema-context/master/context.json"
   ],
@@ -7,7 +14,6 @@
   "skos:prefLabel": "CBCL_53",
   "skos:altLabel": "CBCL_53",
   "schema:description": "Overeating",
-  "isVis": false,
   "schema:schemaVersion": "0.0.1",
   "schema:version": "0.0.1",
   "ui": {

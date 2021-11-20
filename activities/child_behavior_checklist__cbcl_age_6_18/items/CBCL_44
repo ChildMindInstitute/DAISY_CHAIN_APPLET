@@ -1,4 +1,11 @@
 {
+  "name": "CBCL_44",
+  "question": "Bites fingernails",
+  "description": "Bites fingernails",
+  "isVis": false,
+  "isOptionalText": false,
+  "timer": 0,
+  "allowEdit": true,
   "@context": [
     "https://raw.githubusercontent.com/jj105/reproschema-context/master/context.json"
   ],
@@ -7,7 +14,6 @@
   "skos:prefLabel": "CBCL_44",
   "skos:altLabel": "CBCL_44",
   "schema:description": "Bites fingernails",
-  "isVis": false,
   "schema:schemaVersion": "0.0.1",
   "schema:version": "0.0.1",
   "ui": {

@@ -1,4 +1,11 @@
 {
+  "name": "CBCL_49",
+  "question": "Constipated, doesn't move bowels",
+  "description": "Constipated, doesn't move bowels",
+  "isVis": false,
+  "isOptionalText": false,
+  "timer": 0,
+  "allowEdit": true,
   "@context": [
     "https://raw.githubusercontent.com/jj105/reproschema-context/master/context.json"
   ],
@@ -7,7 +14,6 @@
   "skos:prefLabel": "CBCL_49",
   "skos:altLabel": "CBCL_49",
   "schema:description": "Constipated, doesn't move bowels",
-  "isVis": false,
   "schema:schemaVersion": "0.0.1",
   "schema:version": "0.0.1",
   "ui": {
