@@ -1,0 +1,60 @@
+{
+  "@context": [
+    "https://raw.githubusercontent.com/jj105/reproschema-context/master/context.json"
+  ],
+  "@type": "reproschema:Field",
+  "@id": "CBCL_34",
+  "skos:prefLabel": "CBCL_34",
+  "skos:altLabel": "CBCL_34",
+  "schema:description": "Feels others are out to get him/her",
+  "isVis": false,
+  "schema:schemaVersion": "0.0.1",
+  "schema:version": "0.0.1",
+  "ui": {
+    "inputType": "radio",
+    "allow": [
+      "autoAdvance"
+    ]
+  },
+  "responseOptions": {
+    "valueType": "xsd:anyURI",
+    "enableNegativeTokens": false,
+    "scoring": true,
+    "responseAlert": false,
+    "randomizeOptions": false,
+    "removeBackOption": false,
+    "colorPalette": false,
+    "multipleChoice": false,
+    "schema:minValue": 1,
+    "schema:maxValue": 3,
+    "choices": [
+      {
+        "@type": "schema:option",
+        "schema:name": "Not true",
+        "schema:value": 1,
+        "reprolib:terms/isVis": false,
+        "schema:color": "false",
+        "schema:description": "",
+        "schema:score": 0
+      },
+      {
+        "@type": "schema:option",
+        "schema:name": "Somewhat or sometimes true",
+        "schema:value": 2,
+        "reprolib:terms/isVis": false,
+        "schema:color": "false",
+        "schema:description": "",
+        "schema:score": 1
+      },
+      {
+        "@type": "schema:option",
+        "schema:name": "Very true or often true",
+        "schema:value": 3,
+        "reprolib:terms/isVis": false,
+        "schema:color": "false",
+        "schema:description": "",
+        "schema:score": 2
+      }
+    ]
+  }
+}

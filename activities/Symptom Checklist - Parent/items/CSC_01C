@@ -1,0 +1,51 @@
+{
+  "@context": [
+    "https://raw.githubusercontent.com/jj105/reproschema-context/master/context.json"
+  ],
+  "@type": "reproschema:Field",
+  "@id": "CSC_01C",
+  "skos:prefLabel": "CSC_01C",
+  "skos:altLabel": "CSC_01C",
+  "schema:description": "",
+  "isVis": false,
+  "schema:schemaVersion": "0.0.1",
+  "schema:version": "0.0.1",
+  "ui": {
+    "inputType": "radio",
+    "allow": [
+      "autoAdvance"
+    ]
+  },
+  "responseOptions": {
+    "valueType": "xsd:anyURI",
+    "enableNegativeTokens": false,
+    "scoring": true,
+    "responseAlert": false,
+    "randomizeOptions": false,
+    "removeBackOption": false,
+    "colorPalette": false,
+    "multipleChoice": false,
+    "schema:minValue": 1,
+    "schema:maxValue": 2,
+    "choices": [
+      {
+        "@type": "schema:option",
+        "schema:name": "No",
+        "schema:value": 0,
+        "reprolib:terms/isVis": false,
+        "schema:color": "false",
+        "schema:description": "",
+        "schema:score": 0
+      },
+      {
+        "@type": "schema:option",
+        "schema:name": "Yes",
+        "schema:value": 1,
+        "reprolib:terms/isVis": false,
+        "schema:color": "false",
+        "schema:description": "",
+        "schema:score": 1
+      }
+    ]
+  }
+}

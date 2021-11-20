@@ -1,0 +1,259 @@
+{
+  "@context": [
+    "https://raw.githubusercontent.com/jj105/reproschema-context/master/context.json"
+  ],
+  "@type": "reproschema:Activity",
+  "@id": "Mood And Feelings Questionnaire Parent Report (MFQ P)",
+  "skos:prefLabel": "Mood And Feelings Questionnaire Parent Report (MFQ P)",
+  "skos:altLabel": "Mood And Feelings Questionnaire Parent Report (MFQ P)",
+  "schema:description": "MFQ P",
+  "schema:splash": "",
+  "schema:schemaVersion": "0.0.1",
+  "schema:version": "0.0.1",
+  "preamble": "",
+  "isReviewerActivity": false,
+  "scoringLogic": {},
+  "repronim:timeUnit": "yearmonthdate",
+  "isPrize": false,
+  "isVis": false,
+  "ui": {
+    "order": [
+      "MFQ_P_01",
+      "MFQ_P_02",
+      "MFQ_P_03",
+      "MFQ_P_04",
+      "MFQ_P_05",
+      "MFQ_P_06",
+      "MFQ_P_07",
+      "MFQ_P_08",
+      "MFQ_P_09",
+      "MFQ_P_10",
+      "MFQ_P_11",
+      "MFQ_P_12",
+      "MFQ_P_13",
+      "MFQ_P_14",
+      "MFQ_P_15",
+      "MFQ_P_16",
+      "MFQ_P_17",
+      "MFQ_P_18",
+      "MFQ_P_19",
+      "MFQ_P_20",
+      "MFQ_P_21",
+      "MFQ_P_22",
+      "MFQ_P_23",
+      "MFQ_P_24",
+      "MFQ_P_25",
+      "MFQ_P_26",
+      "MFQ_P_27",
+      "MFQ_P_28",
+      "MFQ_P_29",
+      "MFQ_P_30",
+      "MFQ_P_31",
+      "MFQ_P_32",
+      "MFQ_P_33",
+      "MFQ_P_34"
+    ],
+    "shuffle": false,
+    "addProperties": [
+      {
+        "variableName": "MFQ_P_01",
+        "isAbout": "MFQ_P_01",
+        "isVis": true
+      },
+      {
+        "variableName": "MFQ_P_02",
+        "isAbout": "MFQ_P_02",
+        "isVis": true
+      },
+      {
+        "variableName": "MFQ_P_03",
+        "isAbout": "MFQ_P_03",
+        "isVis": true
+      },
+      {
+        "variableName": "MFQ_P_04",
+        "isAbout": "MFQ_P_04",
+        "isVis": true
+      },
+      {
+        "variableName": "MFQ_P_05",
+        "isAbout": "MFQ_P_05",
+        "isVis": true
+      },
+      {
+        "variableName": "MFQ_P_06",
+        "isAbout": "MFQ_P_06",
+        "isVis": true
+      },
+      {
+        "variableName": "MFQ_P_07",
+        "isAbout": "MFQ_P_07",
+        "isVis": true
+      },
+      {
+        "variableName": "MFQ_P_08",
+        "isAbout": "MFQ_P_08",
+        "isVis": true
+      },
+      {
+        "variableName": "MFQ_P_09",
+        "isAbout": "MFQ_P_09",
+        "isVis": true
+      },
+      {
+        "variableName": "MFQ_P_10",
+        "isAbout": "MFQ_P_10",
+        "isVis": true
+      },
+      {
+        "variableName": "MFQ_P_11",
+        "isAbout": "MFQ_P_11",
+        "isVis": true
+      },
+      {
+        "variableName": "MFQ_P_12",
+        "isAbout": "MFQ_P_12",
+        "isVis": true
+      },
+      {
+        "variableName": "MFQ_P_13",
+        "isAbout": "MFQ_P_13",
+        "isVis": true
+      },
+      {
+        "variableName": "MFQ_P_14",
+        "isAbout": "MFQ_P_14",
+        "isVis": true
+      },
+      {
+        "variableName": "MFQ_P_15",
+        "isAbout": "MFQ_P_15",
+        "isVis": true
+      },
+      {
+        "variableName": "MFQ_P_16",
+        "isAbout": "MFQ_P_16",
+        "isVis": true
+      },
+      {
+        "variableName": "MFQ_P_17",
+        "isAbout": "MFQ_P_17",
+        "isVis": true
+      },
+      {
+        "variableName": "MFQ_P_18",
+        "isAbout": "MFQ_P_18",
+        "isVis": true
+      },
+      {
+        "variableName": "MFQ_P_19",
+        "isAbout": "MFQ_P_19",
+        "isVis": true
+      },
+      {
+        "variableName": "MFQ_P_20",
+        "isAbout": "MFQ_P_20",
+        "isVis": true
+      },
+      {
+        "variableName": "MFQ_P_21",
+        "isAbout": "MFQ_P_21",
+        "isVis": true
+      },
+      {
+        "variableName": "MFQ_P_22",
+        "isAbout": "MFQ_P_22",
+        "isVis": true
+      },
+      {
+        "variableName": "MFQ_P_23",
+        "isAbout": "MFQ_P_23",
+        "isVis": true
+      },
+      {
+        "variableName": "MFQ_P_24",
+        "isAbout": "MFQ_P_24",
+        "isVis": true
+      },
+      {
+        "variableName": "MFQ_P_25",
+        "isAbout": "MFQ_P_25",
+        "isVis": true
+      },
+      {
+        "variableName": "MFQ_P_26",
+        "isAbout": "MFQ_P_26",
+        "isVis": true
+      },
+      {
+        "variableName": "MFQ_P_27",
+        "isAbout": "MFQ_P_27",
+        "isVis": true
+      },
+      {
+        "variableName": "MFQ_P_28",
+        "isAbout": "MFQ_P_28",
+        "isVis": true
+      },
+      {
+        "variableName": "MFQ_P_29",
+        "isAbout": "MFQ_P_29",
+        "isVis": true
+      },
+      {
+        "variableName": "MFQ_P_30",
+        "isAbout": "MFQ_P_30",
+        "isVis": true
+      },
+      {
+        "variableName": "MFQ_P_31",
+        "isAbout": "MFQ_P_31",
+        "isVis": true
+      },
+      {
+        "variableName": "MFQ_P_32",
+        "isAbout": "MFQ_P_32",
+        "isVis": true
+      },
+      {
+        "variableName": "MFQ_P_33",
+        "isAbout": "MFQ_P_33",
+        "isVis": true
+      },
+      {
+        "variableName": "MFQ_P_34",
+        "isAbout": "MFQ_P_34",
+        "isVis": true
+      }
+    ],
+    "allow": [
+      "disableSummary"
+    ]
+  },
+  "subScales": [],
+  "finalSubScale": [],
+  "hasResponseIdentifier": false,
+  "compute": [
+    {
+      "jsExpression": "MFQ_P_01",
+      "variableName": "total",
+      "description": "total score",
+      "direction": true
+    }
+  ],
+  "messages": [
+    {
+      "jsExpression": "total >= 0",
+      "message": "you have completed this assessment, you will now move on to the next one.",
+      "outputType": "cumulative",
+      "nextActivity": "Distress Tolerance Scale (DTS)"
+    },
+    {
+      "jsExpression": "total < 0",
+      "message": "you have completed this assessment, you will now move on to the next one.",
+      "outputType": "cumulative",
+      "nextActivity": "Distress Tolerance Scale (DTS)"
+    }
+  ],
+  "scoreOverview": "Summary"
+}

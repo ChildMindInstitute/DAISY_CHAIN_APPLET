@@ -1,0 +1,78 @@
+{
+  "@context": [
+    "https://raw.githubusercontent.com/jj105/reproschema-context/master/context.json"
+  ],
+  "@type": "reproschema:Field",
+  "@id": "WHODAS_P_03",
+  "skos:prefLabel": "WHODAS_P_03",
+  "skos:altLabel": "WHODAS_P_03",
+  "schema:description": "",
+  "isVis": false,
+  "schema:schemaVersion": "0.0.1",
+  "schema:version": "0.0.1",
+  "ui": {
+    "inputType": "radio",
+    "allow": [
+      "autoAdvance"
+    ]
+  },
+  "responseOptions": {
+    "valueType": "xsd:anyURI",
+    "enableNegativeTokens": false,
+    "scoring": true,
+    "responseAlert": false,
+    "randomizeOptions": false,
+    "removeBackOption": false,
+    "colorPalette": false,
+    "multipleChoice": false,
+    "schema:minValue": 1,
+    "schema:maxValue": 5,
+    "choices": [
+      {
+        "@type": "schema:option",
+        "schema:name": "No Difficulty",
+        "schema:value": 0,
+        "reprolib:terms/isVis": false,
+        "schema:color": "false",
+        "schema:description": "",
+        "schema:score": 0
+      },
+      {
+        "@type": "schema:option",
+        "schema:name": "Mild Difficulty",
+        "schema:value": 1,
+        "reprolib:terms/isVis": false,
+        "schema:color": "false",
+        "schema:description": "",
+        "schema:score": 1
+      },
+      {
+        "@type": "schema:option",
+        "schema:name": "Moderate Difficulty",
+        "schema:value": 2,
+        "reprolib:terms/isVis": false,
+        "schema:color": "false",
+        "schema:description": "",
+        "schema:score": 2
+      },
+      {
+        "@type": "schema:option",
+        "schema:name": "Severe Difficulty",
+        "schema:value": 3,
+        "reprolib:terms/isVis": false,
+        "schema:color": "false",
+        "schema:description": "",
+        "schema:score": 3
+      },
+      {
+        "@type": "schema:option",
+        "schema:name": "Extreme Difficulty or Cannot Do",
+        "schema:value": 4,
+        "reprolib:terms/isVis": false,
+        "schema:color": "false",
+        "schema:description": "",
+        "schema:score": 4
+      }
+    ]
+  }
+}

@@ -1,0 +1,145 @@
+{
+  "@context": [
+    "https://raw.githubusercontent.com/jj105/reproschema-context/master/context.json"
+  ],
+  "@type": "reproschema:Activity",
+  "@id": "ACE Parent",
+  "skos:prefLabel": "ACE Parent",
+  "skos:altLabel": "ACE Parent",
+  "schema:description": "Adverse Childhood Events (ACE) Parent Questionnaire",
+  "schema:splash": "",
+  "schema:schemaVersion": "0.0.1",
+  "schema:version": "0.0.1",
+  "preamble": "",
+  "isReviewerActivity": false,
+  "scoringLogic": {},
+  "repronim:timeUnit": "yearmonthdate",
+  "isPrize": false,
+  "isVis": false,
+  "ui": {
+    "order": [
+      "ACE_03",
+      "ACE_04",
+      "ACE_05",
+      "ACE_06",
+      "ACE_07",
+      "ACE_08",
+      "ACE_09",
+      "ACE_10",
+      "ACE_11",
+      "ACE_12",
+      "ACE_13",
+      "ACE_14",
+      "ACE_15",
+      "ACE_16",
+      "ACE_17"
+    ],
+    "shuffle": false,
+    "addProperties": [
+      {
+        "variableName": "ACE_03",
+        "isAbout": "ACE_03",
+        "isVis": true
+      },
+      {
+        "variableName": "ACE_04",
+        "isAbout": "ACE_04",
+        "isVis": true
+      },
+      {
+        "variableName": "ACE_05",
+        "isAbout": "ACE_05",
+        "isVis": true
+      },
+      {
+        "variableName": "ACE_06",
+        "isAbout": "ACE_06",
+        "isVis": true
+      },
+      {
+        "variableName": "ACE_07",
+        "isAbout": "ACE_07",
+        "isVis": true
+      },
+      {
+        "variableName": "ACE_08",
+        "isAbout": "ACE_08",
+        "isVis": true
+      },
+      {
+        "variableName": "ACE_09",
+        "isAbout": "ACE_09",
+        "isVis": true
+      },
+      {
+        "variableName": "ACE_10",
+        "isAbout": "ACE_10",
+        "isVis": true
+      },
+      {
+        "variableName": "ACE_11",
+        "isAbout": "ACE_11",
+        "isVis": true
+      },
+      {
+        "variableName": "ACE_12",
+        "isAbout": "ACE_12",
+        "isVis": true
+      },
+      {
+        "variableName": "ACE_13",
+        "isAbout": "ACE_13",
+        "isVis": true
+      },
+      {
+        "variableName": "ACE_14",
+        "isAbout": "ACE_14",
+        "isVis": true
+      },
+      {
+        "variableName": "ACE_15",
+        "isAbout": "ACE_15",
+        "isVis": true
+      },
+      {
+        "variableName": "ACE_16",
+        "isAbout": "ACE_16",
+        "isVis": true
+      },
+      {
+        "variableName": "ACE_17",
+        "isAbout": "ACE_17",
+        "isVis": true
+      }
+    ],
+    "allow": [
+      "disableSummary"
+    ]
+  },
+  "subScales": [],
+  "finalSubScale": [],
+  "hasResponseIdentifier": false,
+  "compute": [
+    {
+      "jsExpression": "ACE_03",
+      "variableName": "Ace ",
+      "description": "Summary",
+      "direction": true
+    }
+  ],
+  "messages": [
+    {
+      "jsExpression": "Ace  >= 0",
+      "message": "You have completed this assessment, you will now move on to the next one.",
+      "outputType": "cumulative",
+      "nextActivity": "CFS"
+    },
+    {
+      "jsExpression": "Ace  < 0",
+      "message": "You have completed this assessment, you will now move on to the next one.",
+      "outputType": "cumulative",
+      "nextActivity": "CFS"
+    }
+  ],
+  "scoreOverview": "Summary"
+}

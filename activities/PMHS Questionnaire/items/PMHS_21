@@ -1,0 +1,78 @@
+{
+  "@context": [
+    "https://raw.githubusercontent.com/jj105/reproschema-context/master/context.json"
+  ],
+  "@type": "reproschema:Field",
+  "@id": "PMHS_21",
+  "skos:prefLabel": "PMHS_21",
+  "skos:altLabel": "PMHS_21",
+  "schema:description": "",
+  "isVis": false,
+  "schema:schemaVersion": "0.0.1",
+  "schema:version": "0.0.1",
+  "ui": {
+    "inputType": "radio",
+    "allow": [
+      "autoAdvance"
+    ]
+  },
+  "responseOptions": {
+    "valueType": "xsd:anyURI",
+    "enableNegativeTokens": false,
+    "scoring": true,
+    "responseAlert": false,
+    "randomizeOptions": false,
+    "removeBackOption": false,
+    "colorPalette": false,
+    "multipleChoice": false,
+    "schema:minValue": 1,
+    "schema:maxValue": 5,
+    "choices": [
+      {
+        "@type": "schema:option",
+        "schema:name": "Not at all",
+        "schema:value": 0,
+        "reprolib:terms/isVis": false,
+        "schema:color": "false",
+        "schema:description": "",
+        "schema:score": 0
+      },
+      {
+        "@type": "schema:option",
+        "schema:name": "Rare, less than a day or two",
+        "schema:value": 1,
+        "reprolib:terms/isVis": false,
+        "schema:color": "false",
+        "schema:description": "",
+        "schema:score": 1
+      },
+      {
+        "@type": "schema:option",
+        "schema:name": "Several days",
+        "schema:value": 2,
+        "reprolib:terms/isVis": false,
+        "schema:color": "false",
+        "schema:description": "",
+        "schema:score": 2
+      },
+      {
+        "@type": "schema:option",
+        "schema:name": "More than half the days",
+        "schema:value": 3,
+        "reprolib:terms/isVis": false,
+        "schema:color": "false",
+        "schema:description": "",
+        "schema:score": 3
+      },
+      {
+        "@type": "schema:option",
+        "schema:name": "Nearly every day",
+        "schema:value": 4,
+        "reprolib:terms/isVis": false,
+        "schema:color": "false",
+        "schema:description": "",
+        "schema:score": 4
+      }
+    ]
+  }
+}

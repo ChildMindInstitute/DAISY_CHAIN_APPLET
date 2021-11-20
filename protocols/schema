@@ -1,0 +1,78 @@
+{
+  "@context": [
+    "https://raw.githubusercontent.com/jj105/reproschema-context/master/context.json",
+    "https://raw.githubusercontent.com/YOUR-PROTOCOL-CONTEXT-FILE"
+  ],
+  "@type": "reproschema:Protocol",
+  "@id": "New Daisy Chain Applet_schema",
+  "skos:prefLabel": "New Daisy Chain Applet",
+  "schema:description": "Applet Description ",
+  "schema:image": "",
+  "schema:schemaVersion": "3.0.18",
+  "schema:version": "3.0.18",
+  "landingPageContent": "",
+  "landingPage": "",
+  "ui": {
+    "addProperties": [
+      {
+        "variableName": "Child Behavior Checklist (CBCL) - Age 6-18",
+        "isAbout": "Child Behavior Checklist (CBCL) - Age 6-18",
+        "prefLabel": "Child Behavior Checklist (CBCL) - Age 6-18",
+        "isVis": true
+      },
+      {
+        "variableName": "Mood And Feelings Questionnaire Parent Report (MFQ P)",
+        "isAbout": "Mood And Feelings Questionnaire Parent Report (MFQ P)",
+        "prefLabel": "Mood And Feelings Questionnaire Parent Report (MFQ P)",
+        "isVis": true
+      },
+      {
+        "variableName": "Distress Tolerance Scale (DTS)",
+        "isAbout": "Distress Tolerance Scale (DTS)",
+        "prefLabel": "Distress Tolerance Scale (DTS)",
+        "isVis": true
+      },
+      {
+        "variableName": "ACE Parent",
+        "isAbout": "ACE Parent",
+        "prefLabel": "ACE Parent",
+        "isVis": true
+      },
+      {
+        "variableName": "CFS",
+        "isAbout": "CFS",
+        "prefLabel": "CFS",
+        "isVis": true
+      },
+      {
+        "variableName": "Symptom Checklist - Parent",
+        "isAbout": "Symptom Checklist - Parent",
+        "prefLabel": "Symptom Checklist - Parent",
+        "isVis": true
+      },
+      {
+        "variableName": "PMHS Questionnaire",
+        "isAbout": "PMHS Questionnaire",
+        "prefLabel": "PMHS Questionnaire",
+        "isVis": true
+      },
+      {
+        "variableName": "WHO Disability Assessment Schedule Parent-Report",
+        "isAbout": "WHO Disability Assessment Schedule Parent-Report",
+        "prefLabel": "WHO Disability Assessment Schedule Parent-Report",
+        "isVis": true
+      }
+    ],
+    "order": [
+      "Child Behavior Checklist (CBCL) - Age 6-18",
+      "Mood And Feelings Questionnaire Parent Report (MFQ P)",
+      "Distress Tolerance Scale (DTS)",
+      "ACE Parent",
+      "CFS",
+      "Symptom Checklist - Parent",
+      "PMHS Questionnaire",
+      "WHO Disability Assessment Schedule Parent-Report"
+    ],
+    "shuffle": false
+  }
+}

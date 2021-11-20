@@ -1,0 +1,38 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "activity_path": "https://raw.githubusercontent.com/ChildMindInstitute/DAISY_CHAIN_APPLET/master/activities",
+    "Child Behavior Checklist (CBCL) - Age 6-18": {
+      "@id": "activity_path:Child Behavior Checklist (CBCL) - Age 6-18/Child Behavior Checklist (CBCL) - Age 6-18_schema",
+      "@type": "@id"
+    },
+    "Mood And Feelings Questionnaire Parent Report (MFQ P)": {
+      "@id": "activity_path:Mood And Feelings Questionnaire Parent Report (MFQ P)/Mood And Feelings Questionnaire Parent Report (MFQ P)_schema",
+      "@type": "@id"
+    },
+    "Distress Tolerance Scale (DTS)": {
+      "@id": "activity_path:Distress Tolerance Scale (DTS)/Distress Tolerance Scale (DTS)_schema",
+      "@type": "@id"
+    },
+    "ACE Parent": {
+      "@id": "activity_path:ACE Parent/ACE Parent_schema",
+      "@type": "@id"
+    },
+    "CFS": {
+      "@id": "activity_path:CFS/CFS_schema",
+      "@type": "@id"
+    },
+    "Symptom Checklist - Parent": {
+      "@id": "activity_path:Symptom Checklist - Parent/Symptom Checklist - Parent_schema",
+      "@type": "@id"
+    },
+    "PMHS Questionnaire": {
+      "@id": "activity_path:PMHS Questionnaire/PMHS Questionnaire_schema",
+      "@type": "@id"
+    },
+    "WHO Disability Assessment Schedule Parent-Report": {
+      "@id": "activity_path:WHO Disability Assessment Schedule Parent-Report/WHO Disability Assessment Schedule Parent-Report_schema",
+      "@type": "@id"
+    }
+  }
+}

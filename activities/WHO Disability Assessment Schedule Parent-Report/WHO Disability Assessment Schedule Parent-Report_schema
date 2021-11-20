@@ -1,0 +1,153 @@
+{
+  "@context": [
+    "https://raw.githubusercontent.com/jj105/reproschema-context/master/context.json"
+  ],
+  "@type": "reproschema:Activity",
+  "@id": "WHO Disability Assessment Schedule Parent-Report",
+  "skos:prefLabel": "WHO Disability Assessment Schedule Parent-Report",
+  "skos:altLabel": "WHO Disability Assessment Schedule Parent-Report",
+  "schema:description": "WHODAS_P",
+  "schema:splash": "",
+  "schema:schemaVersion": "0.0.1",
+  "schema:version": "0.0.1",
+  "preamble": "",
+  "isReviewerActivity": false,
+  "scoringLogic": {},
+  "repronim:timeUnit": "yearmonthdate",
+  "isPrize": false,
+  "isVis": false,
+  "ui": {
+    "order": [
+      "WHODAS_P_01",
+      "WHODAS_P_02",
+      "WHODAS_P_03",
+      "WHODAS_P_04",
+      "WHODAS_P_05",
+      "WHODAS_P_06",
+      "WHODAS_P_07",
+      "WHODAS_P_08",
+      "WHODAS_P_09",
+      "WHODAS_P_10",
+      "WHODAS_P_11",
+      "WHODAS_P_12",
+      "WHODAS_P_Days01",
+      "WHODAS_P_Days02",
+      "WHODAS_P_Days03"
+    ],
+    "shuffle": false,
+    "addProperties": [
+      {
+        "variableName": "WHODAS_P_01",
+        "isAbout": "WHODAS_P_01",
+        "isVis": true
+      },
+      {
+        "variableName": "WHODAS_P_02",
+        "isAbout": "WHODAS_P_02",
+        "isVis": true
+      },
+      {
+        "variableName": "WHODAS_P_03",
+        "isAbout": "WHODAS_P_03",
+        "isVis": true
+      },
+      {
+        "variableName": "WHODAS_P_04",
+        "isAbout": "WHODAS_P_04",
+        "isVis": true
+      },
+      {
+        "variableName": "WHODAS_P_05",
+        "isAbout": "WHODAS_P_05",
+        "isVis": true
+      },
+      {
+        "variableName": "WHODAS_P_06",
+        "isAbout": "WHODAS_P_06",
+        "isVis": true
+      },
+      {
+        "variableName": "WHODAS_P_07",
+        "isAbout": "WHODAS_P_07",
+        "isVis": true
+      },
+      {
+        "variableName": "WHODAS_P_08",
+        "isAbout": "WHODAS_P_08",
+        "isVis": true
+      },
+      {
+        "variableName": "WHODAS_P_09",
+        "isAbout": "WHODAS_P_09",
+        "isVis": true
+      },
+      {
+        "variableName": "WHODAS_P_10",
+        "isAbout": "WHODAS_P_10",
+        "isVis": true
+      },
+      {
+        "variableName": "WHODAS_P_11",
+        "isAbout": "WHODAS_P_11",
+        "isVis": true
+      },
+      {
+        "variableName": "WHODAS_P_12",
+        "isAbout": "WHODAS_P_12",
+        "isVis": true
+      },
+      {
+        "variableName": "WHODAS_P_Days01",
+        "isAbout": "WHODAS_P_Days01",
+        "isVis": true
+      },
+      {
+        "variableName": "WHODAS_P_Days02",
+        "isAbout": "WHODAS_P_Days02",
+        "isVis": true
+      },
+      {
+        "variableName": "WHODAS_P_Days03",
+        "isAbout": "WHODAS_P_Days03",
+        "isVis": true
+      }
+    ],
+    "allow": [
+      "disableSummary"
+    ]
+  },
+  "subScales": [
+    {
+      "isAverageScore": false,
+      "jsExpression": "WHODAS_P_01 + WHODAS_P_02 + WHODAS_P_03 + WHODAS_P_04 + WHODAS_P_05 + WHODAS_P_06 + WHODAS_P_07 + WHODAS_P_08 + WHODAS_P_09 + WHODAS_P_10 + WHODAS_P_11 + WHODAS_P_12",
+      "variableName": "WHODAS_P_Total",
+      "subScaleId": 1,
+      "valid": true
+    }
+  ],
+  "finalSubScale": [],
+  "hasResponseIdentifier": false,
+  "compute": [
+    {
+      "jsExpression": "WHODAS_P_01",
+      "variableName": "test",
+      "description": "test",
+      "direction": true
+    }
+  ],
+  "messages": [
+    {
+      "jsExpression": "test >= 0",
+      "message": "test",
+      "outputType": "cumulative",
+      "nextActivity": "Child Behavior Checklist (CBCL) - Age 6-18"
+    },
+    {
+      "jsExpression": "test < 0",
+      "message": "test",
+      "outputType": "cumulative",
+      "nextActivity": "Child Behavior Checklist (CBCL) - Age 6-18"
+    }
+  ],
+  "scoreOverview": "test"
+}

@@ -1,0 +1,94 @@
+{
+  "@context": [
+    "https://raw.githubusercontent.com/jj105/reproschema-context/master/context.json"
+  ],
+  "@type": "reproschema:Field",
+  "@id": "CBCL_56",
+  "skos:prefLabel": "CBCL_56",
+  "skos:altLabel": "CBCL_56",
+  "schema:description": "Physical problems without known medical cause",
+  "isVis": false,
+  "schema:schemaVersion": "0.0.1",
+  "schema:version": "0.0.1",
+  "ui": {
+    "inputType": "radio"
+  },
+  "responseOptions": {
+    "valueType": "xsd:anyURI",
+    "enableNegativeTokens": false,
+    "scoring": false,
+    "responseAlert": false,
+    "randomizeOptions": false,
+    "removeBackOption": false,
+    "colorPalette": false,
+    "multipleChoice": true,
+    "schema:minValue": 1,
+    "schema:maxValue": 8,
+    "choices": [
+      {
+        "@type": "schema:option",
+        "schema:name": "Aches or pains (not stomach or headaches)",
+        "schema:value": 1,
+        "reprolib:terms/isVis": false,
+        "schema:color": "false",
+        "schema:description": "false"
+      },
+      {
+        "@type": "schema:option",
+        "schema:name": "Headaches",
+        "schema:value": 2,
+        "reprolib:terms/isVis": false,
+        "schema:color": "false",
+        "schema:description": "false"
+      },
+      {
+        "@type": "schema:option",
+        "schema:name": "Nausea, feels sick",
+        "schema:value": 3,
+        "reprolib:terms/isVis": false,
+        "schema:color": "false",
+        "schema:description": "false"
+      },
+      {
+        "@type": "schema:option",
+        "schema:name": "Problems with eyes (not if corrected by glasses)",
+        "schema:value": 4,
+        "reprolib:terms/isVis": false,
+        "schema:color": "false",
+        "schema:description": "false"
+      },
+      {
+        "@type": "schema:option",
+        "schema:name": "Rashes or other skin problems",
+        "schema:value": 5,
+        "reprolib:terms/isVis": false,
+        "schema:color": "false",
+        "schema:description": "false"
+      },
+      {
+        "@type": "schema:option",
+        "schema:name": "Stomachaches",
+        "schema:value": 6,
+        "reprolib:terms/isVis": false,
+        "schema:color": "false",
+        "schema:description": "false"
+      },
+      {
+        "@type": "schema:option",
+        "schema:name": "Vomiting, throwing up",
+        "schema:value": 7,
+        "reprolib:terms/isVis": false,
+        "schema:color": "false",
+        "schema:description": "false"
+      },
+      {
+        "@type": "schema:option",
+        "schema:name": "Other",
+        "schema:value": 8,
+        "reprolib:terms/isVis": false,
+        "schema:color": "false",
+        "schema:description": "false"
+      }
+    ]
+  }
+}

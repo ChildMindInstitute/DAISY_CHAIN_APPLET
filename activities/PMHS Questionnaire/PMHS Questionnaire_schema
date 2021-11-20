@@ -1,0 +1,193 @@
+{
+  "@context": [
+    "https://raw.githubusercontent.com/jj105/reproschema-context/master/context.json"
+  ],
+  "@type": "reproschema:Activity",
+  "@id": "PMHS Questionnaire",
+  "skos:prefLabel": "PMHS Questionnaire",
+  "skos:altLabel": "PMHS Questionnaire",
+  "schema:description": "PMHS Questionnaire",
+  "schema:splash": "",
+  "schema:schemaVersion": "0.0.1",
+  "schema:version": "0.0.1",
+  "preamble": "",
+  "isReviewerActivity": false,
+  "scoringLogic": {},
+  "repronim:timeUnit": "yearmonthdate",
+  "isPrize": false,
+  "isVis": false,
+  "ui": {
+    "order": [
+      "PMHS_01",
+      "PMHS_02",
+      "PMHS_03",
+      "PMHS_04",
+      "PMHS_05",
+      "PMHS_06",
+      "PMHS_07",
+      "PMHS_08",
+      "PMHS_09",
+      "PMHS_10",
+      "PMHS_11",
+      "PMHS_12",
+      "PMHS_13",
+      "PMHS_14",
+      "PMHS_15",
+      "PMHS_16",
+      "PMHS_17",
+      "PMHS_18",
+      "PMHS_19",
+      "PMHS_20",
+      "PMHS_21",
+      "PMHS_22",
+      "PMHS_23"
+    ],
+    "shuffle": false,
+    "addProperties": [
+      {
+        "variableName": "PMHS_01",
+        "isAbout": "PMHS_01",
+        "isVis": true
+      },
+      {
+        "variableName": "PMHS_02",
+        "isAbout": "PMHS_02",
+        "isVis": true
+      },
+      {
+        "variableName": "PMHS_03",
+        "isAbout": "PMHS_03",
+        "isVis": true
+      },
+      {
+        "variableName": "PMHS_04",
+        "isAbout": "PMHS_04",
+        "isVis": true
+      },
+      {
+        "variableName": "PMHS_05",
+        "isAbout": "PMHS_05",
+        "isVis": true
+      },
+      {
+        "variableName": "PMHS_06",
+        "isAbout": "PMHS_06",
+        "isVis": true
+      },
+      {
+        "variableName": "PMHS_07",
+        "isAbout": "PMHS_07",
+        "isVis": true
+      },
+      {
+        "variableName": "PMHS_08",
+        "isAbout": "PMHS_08",
+        "isVis": true
+      },
+      {
+        "variableName": "PMHS_09",
+        "isAbout": "PMHS_09",
+        "isVis": true
+      },
+      {
+        "variableName": "PMHS_10",
+        "isAbout": "PMHS_10",
+        "isVis": true
+      },
+      {
+        "variableName": "PMHS_11",
+        "isAbout": "PMHS_11",
+        "isVis": true
+      },
+      {
+        "variableName": "PMHS_12",
+        "isAbout": "PMHS_12",
+        "isVis": true
+      },
+      {
+        "variableName": "PMHS_13",
+        "isAbout": "PMHS_13",
+        "isVis": true
+      },
+      {
+        "variableName": "PMHS_14",
+        "isAbout": "PMHS_14",
+        "isVis": true
+      },
+      {
+        "variableName": "PMHS_15",
+        "isAbout": "PMHS_15",
+        "isVis": true
+      },
+      {
+        "variableName": "PMHS_16",
+        "isAbout": "PMHS_16",
+        "isVis": true
+      },
+      {
+        "variableName": "PMHS_17",
+        "isAbout": "PMHS_17",
+        "isVis": true
+      },
+      {
+        "variableName": "PMHS_18",
+        "isAbout": "PMHS_18",
+        "isVis": true
+      },
+      {
+        "variableName": "PMHS_19",
+        "isAbout": "PMHS_19",
+        "isVis": true
+      },
+      {
+        "variableName": "PMHS_20",
+        "isAbout": "PMHS_20",
+        "isVis": true
+      },
+      {
+        "variableName": "PMHS_21",
+        "isAbout": "PMHS_21",
+        "isVis": true
+      },
+      {
+        "variableName": "PMHS_22",
+        "isAbout": "PMHS_22",
+        "isVis": true
+      },
+      {
+        "variableName": "PMHS_23",
+        "isAbout": "PMHS_23",
+        "isVis": true
+      }
+    ],
+    "allow": [
+      "disableSummary"
+    ]
+  },
+  "subScales": [],
+  "finalSubScale": [],
+  "hasResponseIdentifier": false,
+  "compute": [
+    {
+      "jsExpression": "PMHS_01",
+      "variableName": "PMHS",
+      "description": "Summary",
+      "direction": true
+    }
+  ],
+  "messages": [
+    {
+      "jsExpression": "PMHS >= 0",
+      "message": "You have copmpleted this assessment, you will now go on to the next one.\n",
+      "outputType": "cumulative",
+      "nextActivity": "WHO Disability Assessment Schedule Parent-Report"
+    },
+    {
+      "jsExpression": "PMHS < 0",
+      "message": "You have copmpleted this assessment, you will now go on to the next one.\n",
+      "outputType": "cumulative",
+      "nextActivity": "WHO Disability Assessment Schedule Parent-Report"
+    }
+  ],
+  "scoreOverview": "Summary"
+}

@@ -1,0 +1,180 @@
+{
+  "@context": [
+    "https://raw.githubusercontent.com/jj105/reproschema-context/master/context.json"
+  ],
+  "@type": "reproschema:Activity",
+  "@id": "Distress Tolerance Scale (DTS)",
+  "skos:prefLabel": "Distress Tolerance Scale (DTS)",
+  "skos:altLabel": "Distress Tolerance Scale (DTS)",
+  "schema:description": "DTS ",
+  "schema:splash": "",
+  "schema:schemaVersion": "0.0.1",
+  "schema:version": "0.0.1",
+  "preamble": "",
+  "isReviewerActivity": false,
+  "scoringLogic": {},
+  "repronim:timeUnit": "yearmonthdate",
+  "isPrize": false,
+  "isVis": false,
+  "ui": {
+    "order": [
+      "DTS_01",
+      "DTS_02",
+      "DTS_03",
+      "DTS_04",
+      "DTS_05",
+      "DTS_06",
+      "DTS_07",
+      "DTS_08",
+      "DTS_09",
+      "DTS_10",
+      "DTS_11",
+      "DTS_12",
+      "DTS_13",
+      "DTS_14",
+      "DTS_15"
+    ],
+    "shuffle": false,
+    "addProperties": [
+      {
+        "variableName": "DTS_01",
+        "isAbout": "DTS_01",
+        "isVis": true
+      },
+      {
+        "variableName": "DTS_02",
+        "isAbout": "DTS_02",
+        "isVis": true
+      },
+      {
+        "variableName": "DTS_03",
+        "isAbout": "DTS_03",
+        "isVis": true
+      },
+      {
+        "variableName": "DTS_04",
+        "isAbout": "DTS_04",
+        "isVis": true
+      },
+      {
+        "variableName": "DTS_05",
+        "isAbout": "DTS_05",
+        "isVis": true
+      },
+      {
+        "variableName": "DTS_06",
+        "isAbout": "DTS_06",
+        "isVis": true
+      },
+      {
+        "variableName": "DTS_07",
+        "isAbout": "DTS_07",
+        "isVis": true
+      },
+      {
+        "variableName": "DTS_08",
+        "isAbout": "DTS_08",
+        "isVis": true
+      },
+      {
+        "variableName": "DTS_09",
+        "isAbout": "DTS_09",
+        "isVis": true
+      },
+      {
+        "variableName": "DTS_10",
+        "isAbout": "DTS_10",
+        "isVis": true
+      },
+      {
+        "variableName": "DTS_11",
+        "isAbout": "DTS_11",
+        "isVis": true
+      },
+      {
+        "variableName": "DTS_12",
+        "isAbout": "DTS_12",
+        "isVis": true
+      },
+      {
+        "variableName": "DTS_13",
+        "isAbout": "DTS_13",
+        "isVis": true
+      },
+      {
+        "variableName": "DTS_14",
+        "isAbout": "DTS_14",
+        "isVis": true
+      },
+      {
+        "variableName": "DTS_15",
+        "isAbout": "DTS_15",
+        "isVis": true
+      }
+    ],
+    "allow": [
+      "disableSummary"
+    ]
+  },
+  "subScales": [
+    {
+      "isAverageScore": false,
+      "jsExpression": "DTS_02 + DTS_04 + DTS_15",
+      "variableName": "DTS_absorption",
+      "subScaleId": 1,
+      "valid": true
+    },
+    {
+      "isAverageScore": false,
+      "jsExpression": "DTS_06 + DTS_07 + DTS_09 + DTS_10 + DTS_11 + DTS_12",
+      "variableName": "DTS_Appraisal",
+      "subScaleId": 2,
+      "valid": true
+    },
+    {
+      "isAverageScore": false,
+      "jsExpression": "DTS_08 + DTS_13 + DTS_14",
+      "variableName": "DTS_Regulation",
+      "subScaleId": 3,
+      "valid": true
+    },
+    {
+      "isAverageScore": false,
+      "jsExpression": "DTS_01 + DTS_03 + DTS_05",
+      "variableName": "DTS_Tolerance",
+      "subScaleId": 4,
+      "valid": true
+    }
+  ],
+  "finalSubScale": [
+    {
+      "isAverageScore": false,
+      "lookupTable": null,
+      "variableName": "Final SubScale Score"
+    }
+  ],
+  "hasResponseIdentifier": false,
+  "compute": [
+    {
+      "jsExpression": "DTS_01",
+      "variableName": "total",
+      "description": "Summary",
+      "direction": true
+    }
+  ],
+  "messages": [
+    {
+      "jsExpression": "total >= 0",
+      "message": "You have completed this assessment, you will now move on to the next one.",
+      "outputType": "cumulative",
+      "nextActivity": "ACE Parent"
+    },
+    {
+      "jsExpression": "total < 0",
+      "message": "You have completed this assessment, you will now move on to the next one.",
+      "outputType": "cumulative",
+      "nextActivity": "ACE Parent"
+    }
+  ],
+  "scoreOverview": "Summary"
+}
