@@ -15,63 +15,63 @@
   "ui": {
     "addProperties": [
       {
-        "variableName": "Child Behavior Checklist (CBCL) - Age 6-18",
-        "isAbout": "Child Behavior Checklist (CBCL) - Age 6-18",
-        "prefLabel": "Child Behavior Checklist (CBCL) - Age 6-18",
+        "variableName": "child_behavior_checklist__cbcl_age_6_18",
+        "isAbout": "child_behavior_checklist__cbcl_age_6_18",
+        "prefLabel": "child_behavior_checklist__cbcl_age_6_18",
         "isVis": true
       },
       {
-        "variableName": "Mood And Feelings Questionnaire Parent Report (MFQ P)",
-        "isAbout": "Mood And Feelings Questionnaire Parent Report (MFQ P)",
-        "prefLabel": "Mood And Feelings Questionnaire Parent Report (MFQ P)",
+        "variableName": "mood_and_feelings_questionnaire_parent_report__mfq_p",
+        "isAbout": "mood_and_feelings_questionnaire_parent_report__mfq_p",
+        "prefLabel": "mood_and_feelings_questionnaire_parent_report__mfq_p",
         "isVis": true
       },
       {
-        "variableName": "Distress Tolerance Scale (DTS)",
-        "isAbout": "Distress Tolerance Scale (DTS)",
-        "prefLabel": "Distress Tolerance Scale (DTS)",
+        "variableName": "distress_tolerance_scale__dts",
+        "isAbout": "distress_tolerance_scale__dts",
+        "prefLabel": "distress_tolerance_scale__dts",
         "isVis": true
       },
       {
-        "variableName": "ACE Parent",
-        "isAbout": "ACE Parent",
-        "prefLabel": "ACE Parent",
+        "variableName": "ace_parent",
+        "isAbout": "ace_parent",
+        "prefLabel": "ace_parent",
         "isVis": true
       },
       {
-        "variableName": "CFS",
-        "isAbout": "CFS",
-        "prefLabel": "CFS",
+        "variableName": "cfs",
+        "isAbout": "cfs",
+        "prefLabel": "cfs",
         "isVis": true
       },
       {
-        "variableName": "Symptom Checklist - Parent",
-        "isAbout": "Symptom Checklist - Parent",
-        "prefLabel": "Symptom Checklist - Parent",
+        "variableName": "symptom_checklist_parent",
+        "isAbout": "symptom_checklist_parent",
+        "prefLabel": "symptom_checklist_parent",
         "isVis": true
       },
       {
-        "variableName": "PMHS Questionnaire",
-        "isAbout": "PMHS Questionnaire",
-        "prefLabel": "PMHS Questionnaire",
+        "variableName": "pmhs_questionnaire",
+        "isAbout": "pmhs_questionnaire",
+        "prefLabel": "pmhs_questionnaire",
         "isVis": true
       },
       {
-        "variableName": "WHO Disability Assessment Schedule Parent-Report",
-        "isAbout": "WHO Disability Assessment Schedule Parent-Report",
-        "prefLabel": "WHO Disability Assessment Schedule Parent-Report",
+        "variableName": "who_disability_assessment_schedule_parent_report",
+        "isAbout": "who_disability_assessment_schedule_parent_report",
+        "prefLabel": "who_disability_assessment_schedule_parent_report",
         "isVis": true
       }
     ],
     "order": [
-      "Child Behavior Checklist (CBCL) - Age 6-18",
-      "Mood And Feelings Questionnaire Parent Report (MFQ P)",
-      "Distress Tolerance Scale (DTS)",
-      "ACE Parent",
-      "CFS",
-      "Symptom Checklist - Parent",
-      "PMHS Questionnaire",
-      "WHO Disability Assessment Schedule Parent-Report"
+      "child_behavior_checklist__cbcl_age_6_18",
+      "mood_and_feelings_questionnaire_parent_report__mfq_p",
+      "distress_tolerance_scale__dts",
+      "ace_parent",
+      "cfs",
+      "symptom_checklist_parent",
+      "pmhs_questionnaire",
+      "who_disability_assessment_schedule_parent_report"
     ],
     "shuffle": false
   }

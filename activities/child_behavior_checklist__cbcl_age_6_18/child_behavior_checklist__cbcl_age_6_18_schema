@@ -1,7 +1,7 @@
 {
   "@context": [
     "https://raw.githubusercontent.com/jj105/reproschema-context/master/context.json",
-    "https://raw.githubusercontent.com/ChildMindInstitute/DAISY_CHAIN_APPLET/master/activities/Child Behavior Checklist (CBCL) - Age 6-18/Child Behavior Checklist (CBCL) - Age 6-18_context"
+    "https://raw.githubusercontent.com/ChildMindInstitute/DAISY_CHAIN_APPLET/master/activities/child_behavior_checklist__cbcl_age_6_18/child_behavior_checklist__cbcl_age_6_18_context"
   ],
   "@type": "reproschema:Activity",
   "@id": "Child Behavior Checklist (CBCL) - Age 6-18",

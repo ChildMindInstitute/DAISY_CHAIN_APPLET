@@ -1,7 +1,7 @@
 {
   "@context": [
     "https://raw.githubusercontent.com/jj105/reproschema-context/master/context.json",
-    "https://raw.githubusercontent.com/ChildMindInstitute/DAISY_CHAIN_APPLET/master/activities/Mood And Feelings Questionnaire Parent Report (MFQ P)/Mood And Feelings Questionnaire Parent Report (MFQ P)_context"
+    "https://raw.githubusercontent.com/ChildMindInstitute/DAISY_CHAIN_APPLET/master/activities/mood_and_feelings_questionnaire_parent_report__mfq_p/mood_and_feelings_questionnaire_parent_report__mfq_p_context"
   ],
   "@type": "reproschema:Activity",
   "@id": "Mood And Feelings Questionnaire Parent Report (MFQ P)",

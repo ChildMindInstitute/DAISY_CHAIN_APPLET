@@ -1,0 +1,102 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "PMHS_01": {
+      "@id": "pmhs_questionnaire:PMHS_01",
+      "@type": "@id"
+    },
+    "PMHS_02": {
+      "@id": "pmhs_questionnaire:PMHS_02",
+      "@type": "@id"
+    },
+    "PMHS_03": {
+      "@id": "pmhs_questionnaire:PMHS_03",
+      "@type": "@id"
+    },
+    "PMHS_04": {
+      "@id": "pmhs_questionnaire:PMHS_04",
+      "@type": "@id"
+    },
+    "PMHS_05": {
+      "@id": "pmhs_questionnaire:PMHS_05",
+      "@type": "@id"
+    },
+    "PMHS_06": {
+      "@id": "pmhs_questionnaire:PMHS_06",
+      "@type": "@id"
+    },
+    "PMHS_07": {
+      "@id": "pmhs_questionnaire:PMHS_07",
+      "@type": "@id"
+    },
+    "PMHS_08": {
+      "@id": "pmhs_questionnaire:PMHS_08",
+      "@type": "@id"
+    },
+    "PMHS_09": {
+      "@id": "pmhs_questionnaire:PMHS_09",
+      "@type": "@id"
+    },
+    "PMHS_10": {
+      "@id": "pmhs_questionnaire:PMHS_10",
+      "@type": "@id"
+    },
+    "PMHS_11": {
+      "@id": "pmhs_questionnaire:PMHS_11",
+      "@type": "@id"
+    },
+    "PMHS_12": {
+      "@id": "pmhs_questionnaire:PMHS_12",
+      "@type": "@id"
+    },
+    "PMHS_13": {
+      "@id": "pmhs_questionnaire:PMHS_13",
+      "@type": "@id"
+    },
+    "PMHS_14": {
+      "@id": "pmhs_questionnaire:PMHS_14",
+      "@type": "@id"
+    },
+    "PMHS_15": {
+      "@id": "pmhs_questionnaire:PMHS_15",
+      "@type": "@id"
+    },
+    "PMHS_16": {
+      "@id": "pmhs_questionnaire:PMHS_16",
+      "@type": "@id"
+    },
+    "PMHS_17": {
+      "@id": "pmhs_questionnaire:PMHS_17",
+      "@type": "@id"
+    },
+    "PMHS_18": {
+      "@id": "pmhs_questionnaire:PMHS_18",
+      "@type": "@id"
+    },
+    "PMHS_19": {
+      "@id": "pmhs_questionnaire:PMHS_19",
+      "@type": "@id"
+    },
+    "PMHS_20": {
+      "@id": "pmhs_questionnaire:PMHS_20",
+      "@type": "@id"
+    },
+    "PMHS_21": {
+      "@id": "pmhs_questionnaire:PMHS_21",
+      "@type": "@id"
+    },
+    "PMHS_22": {
+      "@id": "pmhs_questionnaire:PMHS_22",
+      "@type": "@id"
+    },
+    "PMHS_23": {
+      "@id": "pmhs_questionnaire:PMHS_23",
+      "@type": "@id"
+    },
+    "cumulatives": {
+      "@id": "pmhs_questionnaire:cumulatives",
+      "@type": "@id"
+    },
+    "pmhs_questionnaire": "https://raw.githubusercontent.com/ChildMindInstitute/DAISY_CHAIN_APPLET/master/activities/pmhs_questionnaire/items/"
+  }
+}

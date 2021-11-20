@@ -1,7 +1,7 @@
 {
   "@context": [
     "https://raw.githubusercontent.com/jj105/reproschema-context/master/context.json",
-    "https://raw.githubusercontent.com/ChildMindInstitute/DAISY_CHAIN_APPLET/master/activities/ACE Parent/ACE Parent_context"
+    "https://raw.githubusercontent.com/ChildMindInstitute/DAISY_CHAIN_APPLET/master/activities/ace_parent/ace_parent_context"
   ],
   "@type": "reproschema:Activity",
   "@id": "ACE Parent",

@@ -2,69 +2,69 @@
   "@context": {
     "@version": 1.1,
     "ACE_03": {
-      "@id": "ACE Parent:ACE_03",
+      "@id": "ace_parent:ACE_03",
       "@type": "@id"
     },
     "ACE_04": {
-      "@id": "ACE Parent:ACE_04",
+      "@id": "ace_parent:ACE_04",
       "@type": "@id"
     },
     "ACE_05": {
-      "@id": "ACE Parent:ACE_05",
+      "@id": "ace_parent:ACE_05",
       "@type": "@id"
     },
     "ACE_06": {
-      "@id": "ACE Parent:ACE_06",
+      "@id": "ace_parent:ACE_06",
       "@type": "@id"
     },
     "ACE_07": {
-      "@id": "ACE Parent:ACE_07",
+      "@id": "ace_parent:ACE_07",
       "@type": "@id"
     },
     "ACE_08": {
-      "@id": "ACE Parent:ACE_08",
+      "@id": "ace_parent:ACE_08",
       "@type": "@id"
     },
     "ACE_09": {
-      "@id": "ACE Parent:ACE_09",
+      "@id": "ace_parent:ACE_09",
       "@type": "@id"
     },
     "ACE_10": {
-      "@id": "ACE Parent:ACE_10",
+      "@id": "ace_parent:ACE_10",
       "@type": "@id"
     },
     "ACE_11": {
-      "@id": "ACE Parent:ACE_11",
+      "@id": "ace_parent:ACE_11",
       "@type": "@id"
     },
     "ACE_12": {
-      "@id": "ACE Parent:ACE_12",
+      "@id": "ace_parent:ACE_12",
       "@type": "@id"
     },
     "ACE_13": {
-      "@id": "ACE Parent:ACE_13",
+      "@id": "ace_parent:ACE_13",
       "@type": "@id"
     },
     "ACE_14": {
-      "@id": "ACE Parent:ACE_14",
+      "@id": "ace_parent:ACE_14",
       "@type": "@id"
     },
     "ACE_15": {
-      "@id": "ACE Parent:ACE_15",
+      "@id": "ace_parent:ACE_15",
       "@type": "@id"
     },
     "ACE_16": {
-      "@id": "ACE Parent:ACE_16",
+      "@id": "ace_parent:ACE_16",
       "@type": "@id"
     },
     "ACE_17": {
-      "@id": "ACE Parent:ACE_17",
+      "@id": "ace_parent:ACE_17",
       "@type": "@id"
     },
     "cumulatives": {
-      "@id": "ACE Parent:cumulatives",
+      "@id": "ace_parent:cumulatives",
       "@type": "@id"
     },
-    "ACE Parent": "https://raw.githubusercontent.com/ChildMindInstitute/DAISY_CHAIN_APPLET/master/activities/ACE Parent/items/"
+    "ace_parent": "https://raw.githubusercontent.com/ChildMindInstitute/DAISY_CHAIN_APPLET/master/activities/ace_parent/items/"
   }
 }

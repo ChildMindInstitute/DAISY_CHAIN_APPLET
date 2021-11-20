@@ -2,36 +2,36 @@
   "@context": {
     "@version": 1.1,
     "activity_path": "https://raw.githubusercontent.com/ChildMindInstitute/DAISY_CHAIN_APPLET/master/activities/",
-    "Child Behavior Checklist (CBCL) - Age 6-18": {
-      "@id": "activity_path:Child Behavior Checklist (CBCL) - Age 6-18/Child Behavior Checklist (CBCL) - Age 6-18_schema",
+    "child_behavior_checklist__cbcl_age_6_18": {
+      "@id": "activity_path:child_behavior_checklist__cbcl_age_6_18/child_behavior_checklist__cbcl_age_6_18_schema",
       "@type": "@id"
     },
-    "Mood And Feelings Questionnaire Parent Report (MFQ P)": {
-      "@id": "activity_path:Mood And Feelings Questionnaire Parent Report (MFQ P)/Mood And Feelings Questionnaire Parent Report (MFQ P)_schema",
+    "mood_and_feelings_questionnaire_parent_report__mfq_p": {
+      "@id": "activity_path:mood_and_feelings_questionnaire_parent_report__mfq_p/mood_and_feelings_questionnaire_parent_report__mfq_p_schema",
       "@type": "@id"
     },
-    "Distress Tolerance Scale (DTS)": {
-      "@id": "activity_path:Distress Tolerance Scale (DTS)/Distress Tolerance Scale (DTS)_schema",
+    "distress_tolerance_scale__dts": {
+      "@id": "activity_path:distress_tolerance_scale__dts/distress_tolerance_scale__dts_schema",
       "@type": "@id"
     },
-    "ACE Parent": {
-      "@id": "activity_path:ACE Parent/ACE Parent_schema",
+    "ace_parent": {
+      "@id": "activity_path:ace_parent/ace_parent_schema",
       "@type": "@id"
     },
-    "CFS": {
-      "@id": "activity_path:CFS/CFS_schema",
+    "cfs": {
+      "@id": "activity_path:cfs/cfs_schema",
       "@type": "@id"
     },
-    "Symptom Checklist - Parent": {
-      "@id": "activity_path:Symptom Checklist - Parent/Symptom Checklist - Parent_schema",
+    "symptom_checklist_parent": {
+      "@id": "activity_path:symptom_checklist_parent/symptom_checklist_parent_schema",
       "@type": "@id"
     },
-    "PMHS Questionnaire": {
-      "@id": "activity_path:PMHS Questionnaire/PMHS Questionnaire_schema",
+    "pmhs_questionnaire": {
+      "@id": "activity_path:pmhs_questionnaire/pmhs_questionnaire_schema",
       "@type": "@id"
     },
-    "WHO Disability Assessment Schedule Parent-Report": {
-      "@id": "activity_path:WHO Disability Assessment Schedule Parent-Report/WHO Disability Assessment Schedule Parent-Report_schema",
+    "who_disability_assessment_schedule_parent_report": {
+      "@id": "activity_path:who_disability_assessment_schedule_parent_report/who_disability_assessment_schedule_parent_report_schema",
       "@type": "@id"
     }
   }

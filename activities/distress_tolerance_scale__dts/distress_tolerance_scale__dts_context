@@ -1,0 +1,70 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "DTS_01": {
+      "@id": "distress_tolerance_scale__dts:DTS_01",
+      "@type": "@id"
+    },
+    "DTS_02": {
+      "@id": "distress_tolerance_scale__dts:DTS_02",
+      "@type": "@id"
+    },
+    "DTS_03": {
+      "@id": "distress_tolerance_scale__dts:DTS_03",
+      "@type": "@id"
+    },
+    "DTS_04": {
+      "@id": "distress_tolerance_scale__dts:DTS_04",
+      "@type": "@id"
+    },
+    "DTS_05": {
+      "@id": "distress_tolerance_scale__dts:DTS_05",
+      "@type": "@id"
+    },
+    "DTS_06": {
+      "@id": "distress_tolerance_scale__dts:DTS_06",
+      "@type": "@id"
+    },
+    "DTS_07": {
+      "@id": "distress_tolerance_scale__dts:DTS_07",
+      "@type": "@id"
+    },
+    "DTS_08": {
+      "@id": "distress_tolerance_scale__dts:DTS_08",
+      "@type": "@id"
+    },
+    "DTS_09": {
+      "@id": "distress_tolerance_scale__dts:DTS_09",
+      "@type": "@id"
+    },
+    "DTS_10": {
+      "@id": "distress_tolerance_scale__dts:DTS_10",
+      "@type": "@id"
+    },
+    "DTS_11": {
+      "@id": "distress_tolerance_scale__dts:DTS_11",
+      "@type": "@id"
+    },
+    "DTS_12": {
+      "@id": "distress_tolerance_scale__dts:DTS_12",
+      "@type": "@id"
+    },
+    "DTS_13": {
+      "@id": "distress_tolerance_scale__dts:DTS_13",
+      "@type": "@id"
+    },
+    "DTS_14": {
+      "@id": "distress_tolerance_scale__dts:DTS_14",
+      "@type": "@id"
+    },
+    "DTS_15": {
+      "@id": "distress_tolerance_scale__dts:DTS_15",
+      "@type": "@id"
+    },
+    "cumulatives": {
+      "@id": "distress_tolerance_scale__dts:cumulatives",
+      "@type": "@id"
+    },
+    "distress_tolerance_scale__dts": "https://raw.githubusercontent.com/ChildMindInstitute/DAISY_CHAIN_APPLET/master/activities/distress_tolerance_scale__dts/items/"
+  }
+}

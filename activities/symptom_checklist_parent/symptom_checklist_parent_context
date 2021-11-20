@@ -1,0 +1,514 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "CSC_01C": {
+      "@id": "symptom_checklist_parent:CSC_01C",
+      "@type": "@id"
+    },
+    "CSC_01P": {
+      "@id": "symptom_checklist_parent:CSC_01P",
+      "@type": "@id"
+    },
+    "CSC_02C": {
+      "@id": "symptom_checklist_parent:CSC_02C",
+      "@type": "@id"
+    },
+    "CSC_02P": {
+      "@id": "symptom_checklist_parent:CSC_02P",
+      "@type": "@id"
+    },
+    "CSC_03C": {
+      "@id": "symptom_checklist_parent:CSC_03C",
+      "@type": "@id"
+    },
+    "CSC_03P": {
+      "@id": "symptom_checklist_parent:CSC_03P",
+      "@type": "@id"
+    },
+    "CSC_04C": {
+      "@id": "symptom_checklist_parent:CSC_04C",
+      "@type": "@id"
+    },
+    "CSC_04P": {
+      "@id": "symptom_checklist_parent:CSC_04P",
+      "@type": "@id"
+    },
+    "CSC_05C": {
+      "@id": "symptom_checklist_parent:CSC_05C",
+      "@type": "@id"
+    },
+    "CSC_05P": {
+      "@id": "symptom_checklist_parent:CSC_05P",
+      "@type": "@id"
+    },
+    "CSC_06C": {
+      "@id": "symptom_checklist_parent:CSC_06C",
+      "@type": "@id"
+    },
+    "CSC_06P": {
+      "@id": "symptom_checklist_parent:CSC_06P",
+      "@type": "@id"
+    },
+    "CSC_07C": {
+      "@id": "symptom_checklist_parent:CSC_07C",
+      "@type": "@id"
+    },
+    "CSC_07P": {
+      "@id": "symptom_checklist_parent:CSC_07P",
+      "@type": "@id"
+    },
+    "CSC_08C": {
+      "@id": "symptom_checklist_parent:CSC_08C",
+      "@type": "@id"
+    },
+    "CSC_08P": {
+      "@id": "symptom_checklist_parent:CSC_08P",
+      "@type": "@id"
+    },
+    "CSC_09C": {
+      "@id": "symptom_checklist_parent:CSC_09C",
+      "@type": "@id"
+    },
+    "CSC_09P": {
+      "@id": "symptom_checklist_parent:CSC_09P",
+      "@type": "@id"
+    },
+    "CSC_10C": {
+      "@id": "symptom_checklist_parent:CSC_10C",
+      "@type": "@id"
+    },
+    "CSC_10P": {
+      "@id": "symptom_checklist_parent:CSC_10P",
+      "@type": "@id"
+    },
+    "CSC_11C": {
+      "@id": "symptom_checklist_parent:CSC_11C",
+      "@type": "@id"
+    },
+    "CSC_11P": {
+      "@id": "symptom_checklist_parent:CSC_11P",
+      "@type": "@id"
+    },
+    "CSC_12C": {
+      "@id": "symptom_checklist_parent:CSC_12C",
+      "@type": "@id"
+    },
+    "CSC_12P": {
+      "@id": "symptom_checklist_parent:CSC_12P",
+      "@type": "@id"
+    },
+    "CSC_13C": {
+      "@id": "symptom_checklist_parent:CSC_13C",
+      "@type": "@id"
+    },
+    "CSC_13P": {
+      "@id": "symptom_checklist_parent:CSC_13P",
+      "@type": "@id"
+    },
+    "CSC_14C": {
+      "@id": "symptom_checklist_parent:CSC_14C",
+      "@type": "@id"
+    },
+    "CSC_14P": {
+      "@id": "symptom_checklist_parent:CSC_14P",
+      "@type": "@id"
+    },
+    "CSC_15C": {
+      "@id": "symptom_checklist_parent:CSC_15C",
+      "@type": "@id"
+    },
+    "CSC_15P": {
+      "@id": "symptom_checklist_parent:CSC_15P",
+      "@type": "@id"
+    },
+    "CSC_16C": {
+      "@id": "symptom_checklist_parent:CSC_16C",
+      "@type": "@id"
+    },
+    "CSC_16P": {
+      "@id": "symptom_checklist_parent:CSC_16P",
+      "@type": "@id"
+    },
+    "CSC_17C": {
+      "@id": "symptom_checklist_parent:CSC_17C",
+      "@type": "@id"
+    },
+    "CSC_17P": {
+      "@id": "symptom_checklist_parent:CSC_17P",
+      "@type": "@id"
+    },
+    "CSC_18C": {
+      "@id": "symptom_checklist_parent:CSC_18C",
+      "@type": "@id"
+    },
+    "CSC_18P": {
+      "@id": "symptom_checklist_parent:CSC_18P",
+      "@type": "@id"
+    },
+    "CSC_19C": {
+      "@id": "symptom_checklist_parent:CSC_19C",
+      "@type": "@id"
+    },
+    "CSC_19P": {
+      "@id": "symptom_checklist_parent:CSC_19P",
+      "@type": "@id"
+    },
+    "CSC_20C": {
+      "@id": "symptom_checklist_parent:CSC_20C",
+      "@type": "@id"
+    },
+    "CSC_20P": {
+      "@id": "symptom_checklist_parent:CSC_20P",
+      "@type": "@id"
+    },
+    "CSC_21C": {
+      "@id": "symptom_checklist_parent:CSC_21C",
+      "@type": "@id"
+    },
+    "CSC_21P": {
+      "@id": "symptom_checklist_parent:CSC_21P",
+      "@type": "@id"
+    },
+    "CSC_22C": {
+      "@id": "symptom_checklist_parent:CSC_22C",
+      "@type": "@id"
+    },
+    "CSC_22P": {
+      "@id": "symptom_checklist_parent:CSC_22P",
+      "@type": "@id"
+    },
+    "CSC_23C": {
+      "@id": "symptom_checklist_parent:CSC_23C",
+      "@type": "@id"
+    },
+    "CSC_23P": {
+      "@id": "symptom_checklist_parent:CSC_23P",
+      "@type": "@id"
+    },
+    "CSC_24C": {
+      "@id": "symptom_checklist_parent:CSC_24C",
+      "@type": "@id"
+    },
+    "CSC_24P": {
+      "@id": "symptom_checklist_parent:CSC_24P",
+      "@type": "@id"
+    },
+    "CSC_25C": {
+      "@id": "symptom_checklist_parent:CSC_25C",
+      "@type": "@id"
+    },
+    "CSC_25P": {
+      "@id": "symptom_checklist_parent:CSC_25P",
+      "@type": "@id"
+    },
+    "CSC_26C": {
+      "@id": "symptom_checklist_parent:CSC_26C",
+      "@type": "@id"
+    },
+    "CSC_26P": {
+      "@id": "symptom_checklist_parent:CSC_26P",
+      "@type": "@id"
+    },
+    "CSC_27C": {
+      "@id": "symptom_checklist_parent:CSC_27C",
+      "@type": "@id"
+    },
+    "CSC_27P": {
+      "@id": "symptom_checklist_parent:CSC_27P",
+      "@type": "@id"
+    },
+    "CSC_28C": {
+      "@id": "symptom_checklist_parent:CSC_28C",
+      "@type": "@id"
+    },
+    "CSC_28P": {
+      "@id": "symptom_checklist_parent:CSC_28P",
+      "@type": "@id"
+    },
+    "CSC_29C": {
+      "@id": "symptom_checklist_parent:CSC_29C",
+      "@type": "@id"
+    },
+    "CSC_29P": {
+      "@id": "symptom_checklist_parent:CSC_29P",
+      "@type": "@id"
+    },
+    "CSC_30C": {
+      "@id": "symptom_checklist_parent:CSC_30C",
+      "@type": "@id"
+    },
+    "CSC_30P": {
+      "@id": "symptom_checklist_parent:CSC_30P",
+      "@type": "@id"
+    },
+    "CSC_31C": {
+      "@id": "symptom_checklist_parent:CSC_31C",
+      "@type": "@id"
+    },
+    "CSC_31P": {
+      "@id": "symptom_checklist_parent:CSC_31P",
+      "@type": "@id"
+    },
+    "CSC_32C": {
+      "@id": "symptom_checklist_parent:CSC_32C",
+      "@type": "@id"
+    },
+    "CSC_32P": {
+      "@id": "symptom_checklist_parent:CSC_32P",
+      "@type": "@id"
+    },
+    "CSC_33C": {
+      "@id": "symptom_checklist_parent:CSC_33C",
+      "@type": "@id"
+    },
+    "CSC_33P": {
+      "@id": "symptom_checklist_parent:CSC_33P",
+      "@type": "@id"
+    },
+    "CSC_34C": {
+      "@id": "symptom_checklist_parent:CSC_34C",
+      "@type": "@id"
+    },
+    "CSC_34P": {
+      "@id": "symptom_checklist_parent:CSC_34P",
+      "@type": "@id"
+    },
+    "CSC_35C": {
+      "@id": "symptom_checklist_parent:CSC_35C",
+      "@type": "@id"
+    },
+    "CSC_35P": {
+      "@id": "symptom_checklist_parent:CSC_35P",
+      "@type": "@id"
+    },
+    "CSC_36C": {
+      "@id": "symptom_checklist_parent:CSC_36C",
+      "@type": "@id"
+    },
+    "CSC_36P": {
+      "@id": "symptom_checklist_parent:CSC_36P",
+      "@type": "@id"
+    },
+    "CSC_37C": {
+      "@id": "symptom_checklist_parent:CSC_37C",
+      "@type": "@id"
+    },
+    "CSC_37P": {
+      "@id": "symptom_checklist_parent:CSC_37P",
+      "@type": "@id"
+    },
+    "CSC_38C": {
+      "@id": "symptom_checklist_parent:CSC_38C",
+      "@type": "@id"
+    },
+    "CSC_38P": {
+      "@id": "symptom_checklist_parent:CSC_38P",
+      "@type": "@id"
+    },
+    "CSC_39C": {
+      "@id": "symptom_checklist_parent:CSC_39C",
+      "@type": "@id"
+    },
+    "CSC_39P": {
+      "@id": "symptom_checklist_parent:CSC_39P",
+      "@type": "@id"
+    },
+    "CSC_40C": {
+      "@id": "symptom_checklist_parent:CSC_40C",
+      "@type": "@id"
+    },
+    "CSC_40P": {
+      "@id": "symptom_checklist_parent:CSC_40P",
+      "@type": "@id"
+    },
+    "CSC_41C": {
+      "@id": "symptom_checklist_parent:CSC_41C",
+      "@type": "@id"
+    },
+    "CSC_41P": {
+      "@id": "symptom_checklist_parent:CSC_41P",
+      "@type": "@id"
+    },
+    "CSC_42C": {
+      "@id": "symptom_checklist_parent:CSC_42C",
+      "@type": "@id"
+    },
+    "CSC_42P": {
+      "@id": "symptom_checklist_parent:CSC_42P",
+      "@type": "@id"
+    },
+    "CSC_43C": {
+      "@id": "symptom_checklist_parent:CSC_43C",
+      "@type": "@id"
+    },
+    "CSC_43P": {
+      "@id": "symptom_checklist_parent:CSC_43P",
+      "@type": "@id"
+    },
+    "CSC_44C": {
+      "@id": "symptom_checklist_parent:CSC_44C",
+      "@type": "@id"
+    },
+    "CSC_44P": {
+      "@id": "symptom_checklist_parent:CSC_44P",
+      "@type": "@id"
+    },
+    "CSC_45C": {
+      "@id": "symptom_checklist_parent:CSC_45C",
+      "@type": "@id"
+    },
+    "CSC_45P": {
+      "@id": "symptom_checklist_parent:CSC_45P",
+      "@type": "@id"
+    },
+    "CSC_46C": {
+      "@id": "symptom_checklist_parent:CSC_46C",
+      "@type": "@id"
+    },
+    "CSC_46P": {
+      "@id": "symptom_checklist_parent:CSC_46P",
+      "@type": "@id"
+    },
+    "CSC_47C": {
+      "@id": "symptom_checklist_parent:CSC_47C",
+      "@type": "@id"
+    },
+    "CSC_47P": {
+      "@id": "symptom_checklist_parent:CSC_47P",
+      "@type": "@id"
+    },
+    "CSC_48C": {
+      "@id": "symptom_checklist_parent:CSC_48C",
+      "@type": "@id"
+    },
+    "CSC_48P": {
+      "@id": "symptom_checklist_parent:CSC_48P",
+      "@type": "@id"
+    },
+    "CSC_49C": {
+      "@id": "symptom_checklist_parent:CSC_49C",
+      "@type": "@id"
+    },
+    "CSC_49P": {
+      "@id": "symptom_checklist_parent:CSC_49P",
+      "@type": "@id"
+    },
+    "CSC_50C": {
+      "@id": "symptom_checklist_parent:CSC_50C",
+      "@type": "@id"
+    },
+    "CSC_50P": {
+      "@id": "symptom_checklist_parent:CSC_50P",
+      "@type": "@id"
+    },
+    "CSC_51C": {
+      "@id": "symptom_checklist_parent:CSC_51C",
+      "@type": "@id"
+    },
+    "CSC_51P": {
+      "@id": "symptom_checklist_parent:CSC_51P",
+      "@type": "@id"
+    },
+    "CSC_52C": {
+      "@id": "symptom_checklist_parent:CSC_52C",
+      "@type": "@id"
+    },
+    "CSC_52P": {
+      "@id": "symptom_checklist_parent:CSC_52P",
+      "@type": "@id"
+    },
+    "CSC_53C": {
+      "@id": "symptom_checklist_parent:CSC_53C",
+      "@type": "@id"
+    },
+    "CSC_53P": {
+      "@id": "symptom_checklist_parent:CSC_53P",
+      "@type": "@id"
+    },
+    "CSC_54C": {
+      "@id": "symptom_checklist_parent:CSC_54C",
+      "@type": "@id"
+    },
+    "CSC_54P": {
+      "@id": "symptom_checklist_parent:CSC_54P",
+      "@type": "@id"
+    },
+    "CSC_55aC": {
+      "@id": "symptom_checklist_parent:CSC_55aC",
+      "@type": "@id"
+    },
+    "CSC_55aP": {
+      "@id": "symptom_checklist_parent:CSC_55aP",
+      "@type": "@id"
+    },
+    "CSC_55bC": {
+      "@id": "symptom_checklist_parent:CSC_55bC",
+      "@type": "@id"
+    },
+    "CSC_55bP": {
+      "@id": "symptom_checklist_parent:CSC_55bP",
+      "@type": "@id"
+    },
+    "CSC_55cC": {
+      "@id": "symptom_checklist_parent:CSC_55cC",
+      "@type": "@id"
+    },
+    "CSC_55cP": {
+      "@id": "symptom_checklist_parent:CSC_55cP",
+      "@type": "@id"
+    },
+    "CSC_55dC": {
+      "@id": "symptom_checklist_parent:CSC_55dC",
+      "@type": "@id"
+    },
+    "CSC_55dP": {
+      "@id": "symptom_checklist_parent:CSC_55dP",
+      "@type": "@id"
+    },
+    "CSC_55eC": {
+      "@id": "symptom_checklist_parent:CSC_55eC",
+      "@type": "@id"
+    },
+    "CSC_55eP": {
+      "@id": "symptom_checklist_parent:CSC_55eP",
+      "@type": "@id"
+    },
+    "CSC_55fC": {
+      "@id": "symptom_checklist_parent:CSC_55fC",
+      "@type": "@id"
+    },
+    "CSC_55fP": {
+      "@id": "symptom_checklist_parent:CSC_55fP",
+      "@type": "@id"
+    },
+    "CSC_55gC": {
+      "@id": "symptom_checklist_parent:CSC_55gC",
+      "@type": "@id"
+    },
+    "CSC_55gP": {
+      "@id": "symptom_checklist_parent:CSC_55gP",
+      "@type": "@id"
+    },
+    "CSC_55hC": {
+      "@id": "symptom_checklist_parent:CSC_55hC",
+      "@type": "@id"
+    },
+    "CSC_55hP": {
+      "@id": "symptom_checklist_parent:CSC_55hP",
+      "@type": "@id"
+    },
+    "CSC_55iC": {
+      "@id": "symptom_checklist_parent:CSC_55iC",
+      "@type": "@id"
+    },
+    "CSC_55iP": {
+      "@id": "symptom_checklist_parent:CSC_55iP",
+      "@type": "@id"
+    },
+    "cumulatives": {
+      "@id": "symptom_checklist_parent:cumulatives",
+      "@type": "@id"
+    },
+    "symptom_checklist_parent": "https://raw.githubusercontent.com/ChildMindInstitute/DAISY_CHAIN_APPLET/master/activities/symptom_checklist_parent/items/"
+  }
+}
