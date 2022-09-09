@@ -7,7 +7,7 @@
   "timer": 0,
   "allowEdit": true,
   "@context": [
-    "https://raw.githubusercontent.com/jj105/reproschema-context/master/context.json"
+    "https://raw.githubusercontent.com/ChildMindInstitute/reproschema-context/master/context.json"
   ],
   "@type": "reproschema:Field",
   "@id": "CSC_40C",

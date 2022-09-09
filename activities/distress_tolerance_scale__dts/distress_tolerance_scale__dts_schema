@@ -1,6 +1,6 @@
 {
   "@context": [
-    "https://raw.githubusercontent.com/jj105/reproschema-context/master/context.json",
+    "https://raw.githubusercontent.com/ChildMindInstitute/reproschema-context/master/context.json",
     "https://raw.githubusercontent.com/ChildMindInstitute/DAISY_CHAIN_APPLET/master/activities/distress_tolerance_scale__dts/distress_tolerance_scale__dts_context"
   ],
   "@type": "reproschema:Activity",
