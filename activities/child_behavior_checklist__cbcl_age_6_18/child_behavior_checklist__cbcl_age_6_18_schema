@@ -1,6 +1,6 @@
 {
   "@context": [
-    "https://raw.githubusercontent.com/jj105/reproschema-context/master/context.json",
+    "https://raw.githubusercontent.com/ChildMindInstitute/reproschema-context/master/context.json",
     "https://raw.githubusercontent.com/ChildMindInstitute/DAISY_CHAIN_APPLET/master/activities/child_behavior_checklist__cbcl_age_6_18/child_behavior_checklist__cbcl_age_6_18_context"
   ],
   "@type": "reproschema:Activity",

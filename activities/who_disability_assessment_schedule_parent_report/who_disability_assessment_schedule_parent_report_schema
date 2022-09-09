@@ -1,6 +1,6 @@
 {
   "@context": [
-    "https://raw.githubusercontent.com/jj105/reproschema-context/master/context.json",
+    "https://raw.githubusercontent.com/ChildMindInstitute/reproschema-context/master/context.json",
     "https://raw.githubusercontent.com/ChildMindInstitute/DAISY_CHAIN_APPLET/master/activities/who_disability_assessment_schedule_parent_report/who_disability_assessment_schedule_parent_report_context"
   ],
   "@type": "reproschema:Activity",
